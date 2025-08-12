@@ -1,0 +1,51 @@
+.header{
+    
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 4rem;
+}
+.header-title a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-title a:hover{
+    color: #cc2020;
+    transition: 1s;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6rem;
+}
+
+.header-nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-nav ul li a:hover{
+    border: 1px solid #cc2020;
+    border-radius: 15px;
+    color: #cc2020;
+    transition: 1s;
+}
